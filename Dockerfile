@@ -9,4 +9,4 @@ RUN update-ca-trust
 #    keytool -import -noprompt -cacerts -trustcacerts -file /usr/share/pki/ca-trust-source/anchors/antrema-cassl.pem -storepass changeit && \
 #    keytool -import -noprompt -cacerts -trustcacerts -file /usr/share/pki/ca-trust-source/anchors/antrema-caroot.pem -storepass changeit && \
 
-USER keycloak
+USER jboss
